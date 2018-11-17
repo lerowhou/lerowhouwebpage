@@ -4,28 +4,56 @@
 }
 
 .navbar{
-  min-height: 50px;
+  height: 50px;
   background-color: #3A3A3A;
+  display: block;
+
 }
 .brand{
   color: white;
   font-weight: 500;
   font-size: 1.8em;
   margin-left: 15px;
-  vertical-align: middle;
   float: left;
+
 }
 .navi{
   float: right;
+  top:15px;
 }
 .opt{
   display: inline-block;
   font-size: 24px;
+  margin-left: 2px;
+  margin-right: 2px;
+  vertical-align: inherit;
+  font-weight: 1600;
+  font-style: bold;
 }
 .navbar a:link,a:visited,a:link{
   text-decoration: none;
   color: white;
+  font-size: 1em;
 }
 .navbar a:hover{
-  
+  color:#E94F37;
+  font-size: 1em;
+}
+.row{
+  margin-top: 15px;
+}
+.col{
+  border:solid 1px black;
+  height: 500px;
+}
+.profinfo{
+
+}
+#prodile{
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  border: solid 4px #39c676;
+  margin-left: auto;
+  margin-right: auto;
 }
