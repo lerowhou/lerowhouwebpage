@@ -1,0 +1,31 @@
+*{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+}
+
+.navbar{
+  min-height: 50px;
+  background-color: #3A3A3A;
+}
+.brand{
+  color: white;
+  font-weight: 500;
+  font-size: 1.8em;
+  margin-left: 15px;
+  vertical-align: middle;
+  float: left;
+}
+.navi{
+  float: right;
+}
+.opt{
+  display: inline-block;
+  font-size: 24px;
+}
+.navbar a:link,a:visited,a:link{
+  text-decoration: none;
+  color: white;
+}
+.navbar a:hover{
+  
+}
